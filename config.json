@@ -1,0 +1,5 @@
+{
+    "name": "Toastee",
+    "description": "Adds an endpoint to stream solves and play a sound.",
+    "route": "/admin/toasts"
+}
