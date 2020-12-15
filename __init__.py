@@ -80,4 +80,4 @@ def load(app):
     for (k, v) in CHALLENGE_CLASSES.items():
         CHALLENGE_CLASSES[k] = WrappedChallenge(v, sio)
 
-    sio.init_app(app)
+    sio.init_app(app, cors_allowed_origins='*')
