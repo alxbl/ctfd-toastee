@@ -7,7 +7,7 @@ This is a very primitive proof-of-concept that I might eventually improve upon.
 
 ## Installation
 
-- Add as a submodule or clone into `CTFd/CTFd/plugins`
+- Clone into `CTFd/CTFd/plugins/toastee` (**not** `ctfd-toastee`)
 - In your CTFd virtualenv (or pipenv), run `pip install -r toastee/requirements.txt` (It's basically just flask-socketio)
 - Restart CTFd
 - Tweak toast.wav and splash.gif
